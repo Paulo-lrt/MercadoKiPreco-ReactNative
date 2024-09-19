@@ -18,7 +18,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.paulolrt.mercadoKiPreco"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -26,6 +27,11 @@
     "plugins": [
       "expo-font",
       "expo-asset"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "65ae2a9c-ef51-4f7e-9d8d-5c19932f1c0a"
+      }
+    }
   }
 }
